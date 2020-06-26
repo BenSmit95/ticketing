@@ -5,7 +5,7 @@ export default ({ req }) => {
 		// We are on the server
 		return axios.create({
 			// [servicename].[namespace].svc.cluster.local
-			baseURL: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+			baseURL: 'http://www.invincible.blog',
 
 			// Required for ingress nginx
 			headers: req.headers,
